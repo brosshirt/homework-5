@@ -95,7 +95,7 @@ The assembler can be called directly using the command `as`. The input to the as
 
 **main.o:**
 ```
-Paste hexdump output here
+Paste hexdump of main.o here
 ```
 
 We'll learn more about this later in the course. For now, just looking at it, what observations do you make? Are you able to draw any connections between the hexdump and the C and assembly code?
@@ -117,11 +117,11 @@ Now that we've gone through the process of turning a source file into an object 
 
 **mylib1.o:**
 ```
-Paste hexdump of output of mylib1.o here
+Paste hexdump of mylib1.o here
 ```
 **mylib2.o:**
 ```
-Paste hexdump of output of mylib2.o here
+Paste hexdump of mylib2.o here
 ```
 
 **Question 18:** Using `ar`, package `mylib1.o` and `mylib2.o` into a static library called `libmylib.a`.
@@ -130,7 +130,7 @@ Paste hexdump of output of mylib2.o here
 
 **libmylib.a:**
 ```
-Paste hexdump of output of libmylib.a here
+Paste hexdump of libmylib.a here
 ```
 
 **Question 20:** Compare the hexdumps of `mylib1.o`, `mylib2.o`, and `libmylib.a`. What do you notice? How many bytes are in `mylib1.o`? How many are in `mylib2.o`? How many are in `libmylib.a`? Based on your comparison, what do you think the extra bytes are doing in `libmylib.a`?
@@ -144,7 +144,7 @@ We now have everything we need to build our executable. The `gcc` linker is a pr
 **Question 22:** Use `hexdump -C` to take a look at hte object code within `main` and paste the output below:
 
 ```
-Paste hexdump of output of main
+Paste hexdump of main here
 ```
 
 **Question 23:** Compare the output of `hexdump` for `main`, `main.o`, and `libmylib.a`. What do you notice? How many bytes are in `main.o`? How many are in `libmylib.a`? How many are in `main`? Based on your comparison, what do you think the extra bytes are doing in `main`?
