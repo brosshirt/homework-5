@@ -104,7 +104,7 @@ We'll learn more about this later in the course. For now, just looking at it, wh
 
 Now that we've gone through the process of turning a source file into an object file, we need to link to the library code on which it depends. To do that, we need to repeat the build process for `mylib1.c` and `mylib2.c`.
 
-**Question 16:** Go through the process of turning `mylib1.c` into `mylib2.o` by following the steps in parts 1 through 3. You'll need to build the following files (you can skip the Gimple/SSA/RTL intermediate representations):
+**Question 16:** Go through the process of turning `mylib1.c`/`mylib2.c` into `mylib1.o`/`mylib2.o` by following the steps in parts 1 through 3. You'll need to build the following files (you can skip the Gimple/SSA/RTL intermediate representations):
 
 - mylib1.i
 - mylib1.s
