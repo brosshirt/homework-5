@@ -153,5 +153,5 @@ Paste hexdump of main here
 
 - all - build the executable from `main.o` and `libmylib.a`
 - main.o - build `main.o` from `main.c`
-- libmylib.a - build `libmylib.a` from `mylib1.o` and `mylib2.o`
+- libmylib.a - build `libmylib.a` from `mylib1.c` and `mylib2.c`
 - clean - remove all `*.i`, `*.s`, `*.a`, `*.o`, `main`, and intermediate representation files.
