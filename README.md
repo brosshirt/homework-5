@@ -106,12 +106,12 @@ Now that we've gone through the process of turning a source file into an object 
 
 **Question 16:** Go through the process of turning `mylib1.c`/`mylib2.c` into `mylib1.o`/`mylib2.o` by following the steps in parts 1 through 3. You'll need to build the following files (you can skip the Gimple/SSA/RTL intermediate representations):
 
-- mylib1.i
-- mylib1.s
-- mylib1.o
-- mylib2.i
-- mylib2.s
-- mylib2.o
+- `mylib1.i`
+- `mylib1.s`
+- `mylib1.o`
+- `mylib2.i`
+- `mylib2.s`
+- `mylib2.o`
 
 **Question 17:** Use `hexdump -C` to take a look at the object code within `mylib1.o` and `mylib2.o`. Paste the output of each below:
 
